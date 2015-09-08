@@ -1281,8 +1281,29 @@ div.buscar form.search-form input.search-submit {
 	border: 1px solid #ef4136;
 }
 div.buscar form.search-form input.search-field {
-	width: 650px;
+	width: 600px;
 	height: 30px;
 	background-color: #ffffff;
 	border: 1px solid #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+	div.buscar form.search-form input.search-field {
+		width: 600px;
+	}
+}
+@media (max-width: 767px) {
+	.has-banner .site-branding {
+		padding: 200px 0 239px 0;
+	}
+	div.buscar form.search-form input.search-field {
+		width: 500px;
+	}
+}
+@media (max-width: 480px) {
+	.has-banner .site-branding {
+		padding: 200px 0 210px 0;
+	}
+	div.buscar form.search-form input.search-field {
+		width: 200px;
+	}
 }
