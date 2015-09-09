@@ -4,6 +4,7 @@
  *
  * @package Creativa Consultores
  */
+$DOMINIO = rtrim(network_home_url(), '/');
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -18,7 +19,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="entry-content container">
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
