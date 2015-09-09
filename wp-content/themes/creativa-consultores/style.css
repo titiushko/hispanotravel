@@ -1258,20 +1258,23 @@ object {
 	background: #000000;
 	opacity: 0.4;
 	position: absolute;
-	top: 428px;
+	top: 427px;
 	width: 100%;
 	z-index: 999;
 }
 .buscar {
 	padding: 20px 0px;
 	position: absolute;
-	top: 431px;
+	top: 430px;
 	width: 100%;
 	z-index: 999;
 	text-align: center;
 }
 div.buscar form.search-form input {
 	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
 	z-index: 99999;
 }
 div.buscar form.search-form input.search-submit {
@@ -1295,6 +1298,12 @@ div.buscar form.search-form input.search-field {
 	.has-banner .site-branding {
 		padding: 200px 0 239px 0;
 	}
+	.site-buscar {
+		top: 380px;
+	}
+	.buscar {
+		top: 383px;
+	}
 	div.buscar form.search-form input.search-field {
 		width: 500px;
 	}
@@ -1302,6 +1311,12 @@ div.buscar form.search-form input.search-field {
 @media (max-width: 480px) {
 	.has-banner .site-branding {
 		padding: 200px 0 210px 0;
+	}
+	.site-buscar {
+		top: 363px;
+	}
+	.buscar {
+		top: 366px;
 	}
 	div.buscar form.search-form input.search-field {
 		width: 200px;
@@ -1331,3 +1346,27 @@ div.buscar form.search-form input.search-field {
 .descripcion-sitio {
 	color: #ffffff;
 }
+/*.boton-contacto {
+	border: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100px;
+	background: #ef4136;
+	padding: 8px;
+	color: #ffffff;
+	border: 1px solid #ef4136;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.campo-contacto {
+	border: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 70%;
+	background: #171717;
+	padding: 8px;
+	color: #8c8c8c;
+	border: 1px solid #393939;
+	margin-bottom: 15px;
+	font-size: 16px;
+}*/

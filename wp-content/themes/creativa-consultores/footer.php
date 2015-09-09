@@ -23,9 +23,9 @@ $DOMINIO = rtrim(network_home_url(), '/');
 							<br>
 							Derechos Reservados 2015.
 							<br><br>
-							<a href=""><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/twitter_icon.png"/></a>
-							<a href=""><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/google_icon.png"/></a>
-							<a href="https://www.facebook.com/hispano.travel.alexandria"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/facebook_icon.png"/></a>
+							<a href="https://twitter.com/hispano_travel" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/twitter_icon.png"/></a>
+							<a href="" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/google_icon.png"/></a>
+							<a href="https://www.facebook.com/hispano.travel.alexandria" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/facebook_icon.png"/></a>
 						</div>
 					</div>
 				</div>
