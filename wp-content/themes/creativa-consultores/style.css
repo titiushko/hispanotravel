@@ -584,7 +584,7 @@ table > tfoot > tr > td {
 	box-shadow: 0 0 1px #adadad;
 }
 .home .hentry {
-	width: 350px;
+	width: auto;
 	margin: 0 30px 30px 0;
 }
 .entry-thumb {
@@ -1126,7 +1126,7 @@ object {
 
 @media only screen and (max-width: 1199px) {
 	.home .hentry {
-		width: 440px;
+		width: auto;
 	}
 	.content-area {
 		width: 550px;
@@ -1134,7 +1134,7 @@ object {
 }
 @media only screen and (max-width: 991px) {
 	.home .hentry {
-		width: 330px;
+		width: auto;
 	}
 	.widget-area,
 	.footer-widget-area {
@@ -1149,7 +1149,7 @@ object {
 }
 @media only screen and (max-width: 749px) {
 	.home .hentry {
-		width: 440px;
+		width: auto;
 		margin-right: 0;
 	}
 	.sidebar-toggle,
@@ -1159,7 +1159,7 @@ object {
 }
 @media only screen and (max-width: 499px) {
 	.home .hentry {
-		width: 340px;
+		width: auto;
 	}
 	.site-title {
 		font-size: 46px;
@@ -1189,7 +1189,7 @@ object {
 }
 @media only screen and (max-width: 399px) {
 	.home .hentry {
-		width: 290px;
+		width: auto;
 		padding: 15px;
 	}
 	.entry-thumb {
@@ -1198,7 +1198,7 @@ object {
 }
 @media only screen and (max-width: 319px) {
 	.home .hentry {
-		width: 210px;
+		width: auto;
 	}
 }
 /* Small menu */

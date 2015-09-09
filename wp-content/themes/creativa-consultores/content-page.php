@@ -4,6 +4,7 @@
  *
  * @package Creativa Consultores
  */
+$DOMINIO = rtrim(network_home_url(), '/');
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
