@@ -6,6 +6,10 @@
  *
  * @package Creativa Consultores
  */
+
+$nombre_sitio = explode(' ', get_bloginfo('name', 'display'));
+//print_r($nombre_sitio);
+$titulo_sitio = '<span class="titulo-parte1">'.$nombre_sitio[0].'</span><span class="titulo-parte2">'.strtolower($nombre_sitio[1]).'</span>';
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -36,6 +40,7 @@
 			<div class="container">
 				<button class="menu-toggle btn"><i class="fa fa-bars"></i></button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				<div class="titulo-sitio"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?= $titulo_sitio; ?></a></div>
 			</div>	
 		</nav><!-- #site-navigation -->
 		<div class="container">
@@ -44,8 +49,8 @@
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
 				<?php else : ?>
 					<?php if ( display_header_text() ) : ?>
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-						<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+						<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> -->
+						<h2 class="site-description descripcion-sitio"><?php bloginfo( 'description' ); ?></h2>
 					<?php endif; ?>
 				<?php endif; ?>
 			</div>

@@ -25,7 +25,7 @@ $DOMINIO = rtrim(network_home_url(), '/');
 							<br><br>
 							<a href=""><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/twitter_icon.png"/></a>
 							<a href=""><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/google_icon.png"/></a>
-							<a href=""><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/facebook_icon.png"/></a>
+							<a href="https://www.facebook.com/hispano.travel.alexandria"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/facebook_icon.png"/></a>
 						</div>
 					</div>
 				</div>

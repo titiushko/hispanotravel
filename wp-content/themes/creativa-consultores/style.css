@@ -989,7 +989,7 @@ object {
 }
 /* Banner - styles used in case the user sets a header image */
 .has-banner .site-branding {
-	padding: 200px 0 240px 0;
+	padding: 200px 0 287px 0;
 }
 .has-banner .main-navigation {
 	position: absolute;
@@ -1306,4 +1306,28 @@ div.buscar form.search-form input.search-field {
 	div.buscar form.search-form input.search-field {
 		width: 200px;
 	}
+}
+.titulo-parte1, .titulo-parte2 {
+	color: #ffffff;
+	font-size: 25px;
+}
+.titulo-parte1 {
+	font-family: "Courier New", Courier, monospace;
+}
+.titulo-parte2 {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+.titulo-sitio {
+	padding: 20px 0px;
+	position: absolute;
+	top: 0px;
+	left: -500px;
+	width: 100%;
+	z-index: 999;
+	text-align: center;
+}
+.descripcion-sitio {
+	color: #ffffff;
 }
