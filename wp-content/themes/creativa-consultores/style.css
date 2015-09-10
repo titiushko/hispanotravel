@@ -1370,3 +1370,14 @@ div.buscar form.search-form input.search-field {
 	margin-bottom: 15px;
 	font-size: 16px;
 }*/
+
+div.amazingslider-box-1 :nth-child(3) { 
+   visibility: hidden;
+}
+
+
+
+
+
+
+
