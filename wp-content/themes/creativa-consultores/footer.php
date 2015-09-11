@@ -19,10 +19,8 @@ $DOMINIO = rtrim(network_home_url(), '/');
 				<div class="text-center" style="color: #ffffff">
 					<div class="row">
 						<div class="col-sm-12">
-							Creativa Consultores S.A. de C.V.
+						 	<img src="<?= $DOMINIO; ?>/wp-content/uploads/2015/09/powered_creativa.png" alt="powered_creativa" />
 							<br>
-							Derechos Reservados 2015.
-							<br><br>
 							<a href="https://twitter.com/hispano_travel" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/twitter_icon.png"/></a>
 							<a href="" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/google_icon.png"/></a>
 							<a href="https://www.facebook.com/hispano.travel.alexandria" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/facebook_icon.png"/></a>
