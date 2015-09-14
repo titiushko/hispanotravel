@@ -18,12 +18,14 @@ $titulo_sitio = '<span class="titulo-parte1">'.$nombre_sitio[0].'</span><span cl
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/js/jquery.min.js"></script>
+<script src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/js/bootstrap.min.js"></script>
 <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 100%;
+      height: 350px;
+      max-width: none;
+      min-width: 100%;
   }
 </style>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -41,7 +43,7 @@ $titulo_sitio = '<span class="titulo-parte1">'.$nombre_sitio[0].'</span><span cl
 <?php if ( get_header_image() ) :?>
 	<header id="masthead" class="site-header has-banner" role="banner">
 <?php else : ?>
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header hispanotravel-banner" role="banner">
 <?php endif; ?>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="container">	
@@ -76,15 +78,7 @@ $titulo_sitio = '<span class="titulo-parte1">'.$nombre_sitio[0].'</span><span cl
 				<!-- <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> -->
 				<h2 class="site-description descripcion-sitio"><?php bloginfo( 'description' ); ?></h2>
 			<?php endif; ?>
-		</nav><!-- #site-navigation -->
-		<div class="container">
-			<div class="site-branding">
-				<?php if ( get_theme_mod('site_logo') ) : ?>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
-				<?php else : ?>
-				<?php endif; ?>
-			</div>
-		</div>
+		</nav>
 		
 	<?php if ( is_home() ) : ?>
 		<div class="sidebar-toggle"><i class="fa fa-plus"></i></div>
@@ -97,4 +91,4 @@ $titulo_sitio = '<span class="titulo-parte1">'.$nombre_sitio[0].'</span><span cl
 	<?php endif; ?>
 	</header><!-- #masthead -->
 
-	<div id="content" class="site-content container">
+	<div id="content" class="site-content container body-custom-conteiner">

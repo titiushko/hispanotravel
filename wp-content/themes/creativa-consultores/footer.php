@@ -13,7 +13,7 @@ $DOMINIO = rtrim(network_home_url(), '/');
 	</div><!-- #content -->
 	<?php /*get_sidebar('footer');*/ ?>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer powered-by-footer" role="contentinfo">
 		<div class="site-info">
 			<div class="container">
 				<div class="text-center" style="color: #ffffff">
