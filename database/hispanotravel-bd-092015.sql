@@ -4,7 +4,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
 CREATE DATABASE IF NOT EXISTS `hispanotravel` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE `hispanotravel`;
@@ -418,7 +418,8 @@ INSERT INTO `ht_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (1820, '_site_transient_theme_roots', 'a:1:{s:20:"creativa-consultores";s:7:"/themes";}', 'yes'),
 (0, '_transient_pll_languages_list', 'a:2:{i:0;a:20:{s:7:"term_id";i:2;s:4:"name";s:8:"Español";s:4:"slug";s:2:"es";s:10:"term_group";s:1:"0";s:16:"term_taxonomy_id";i:2;s:8:"taxonomy";s:8:"language";s:11:"description";s:5:"es_ES";s:6:"parent";s:1:"0";s:5:"count";i:55;s:10:"tl_term_id";i:3;s:19:"tl_term_taxonomy_id";i:3;s:8:"tl_count";i:1;s:6:"locale";R:9;s:6:"is_rtl";i:0;s:8:"flag_url";s:80:"http://192.168.1.42:90/hispanotravel/wp-content/plugins/polylang/flags/es_ES.png";s:4:"flag";s:696:"<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFnSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f0NIKPoFJH/9//ULyGaUlQXaABBALAx/Gf4zAt31F4i+ffj3/cN/XrFfzOx//v///f//LzACM/79ZmD8/e8TA0AAMYHdDVT958vXP38nMDB0s3x94/Tj5y+YahhiAKLfQKUAAcQEdtJfoDHMF2L+vPzDmFXLelf551tGFOOhev4A/QgQQExgHwAd8IdFT/Wz6j+GhlpmXSOW/2z///8Eq/sJ18Dw/zdQA0AAMQExxJjjdy9x2/76EfLz4MXdP/i+wsyGkkA3Aw3984cBIIAYfzIwMKel/bt3jwEaLNAwgZIQxp/fDH/+MqqovL14ESCAWICeZvr9h0FSEhSgwBgAygFDEMT+wwAhgQgc4kAEVAwQQIxfUSMSTxxDAECAAQAJWke8v4u1tAAAAABJRU5ErkJggg==" title="Español" alt="Español" />";s:8:"home_url";s:37:"http://192.168.1.42:90/hispanotravel/";s:10:"search_url";s:37:"http://192.168.1.42:90/hispanotravel/";s:4:"host";N;s:5:"mo_id";s:1:"7";}i:1;a:20:{s:7:"term_id";i:5;s:4:"name";s:7:"English";s:4:"slug";s:2:"en";s:10:"term_group";s:1:"0";s:16:"term_taxonomy_id";i:5;s:8:"taxonomy";s:8:"language";s:11:"description";s:5:"en_US";s:6:"parent";s:1:"0";s:5:"count";i:38;s:10:"tl_term_id";i:6;s:19:"tl_term_taxonomy_id";i:6;s:8:"tl_count";i:1;s:6:"locale";R:29;s:6:"is_rtl";i:0;s:8:"flag_url";s:80:"http://192.168.1.42:90/hispanotravel/wp-content/plugins/polylang/flags/en_US.png";s:4:"flag";s:878:"<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" title="English" alt="English" />";s:8:"home_url";s:45:"http://192.168.1.42:90/hispanotravel/en/home/";s:10:"search_url";s:40:"http://192.168.1.42:90/hispanotravel/en/";s:4:"host";N;s:5:"mo_id";s:1:"8";}}', 'yes'),
 (0, 'wpmm_map_children', 'a:0:{}', 'yes'),
-(0, '_transient_is_multi_author', '0', 'yes');
+(0, '_transient_is_multi_author', '0', 'yes'),
+(0, '_transient_doing_cron', '1442258490.4613718986511230468750', 'yes');
 
 DROP TABLE IF EXISTS `ht_postmeta`;
 CREATE TABLE IF NOT EXISTS `ht_postmeta` (
@@ -2047,22 +2048,34 @@ INSERT INTO `ht_wonderplugin_slider` (`id`, `name`, `data`, `time`, `authorid`) 
 
 
 ALTER TABLE `ht_cis_categories`
- ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `ht_cis_images`
- ADD PRIMARY KEY (`id`), ADD KEY `id_slider` (`id_slider`), ADD KEY `id_user` (`id_user`), ADD KEY `ordering` (`ordering`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_slider` (`id_slider`),
+  ADD KEY `id_user` (`id_user`),
+  ADD KEY `ordering` (`ordering`);
 
 ALTER TABLE `ht_cis_sliders`
- ADD PRIMARY KEY (`id`), ADD KEY `id_user` (`id_user`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_user` (`id_user`);
 
 ALTER TABLE `ht_commentmeta`
- ADD PRIMARY KEY (`meta_id`), ADD KEY `comment_id` (`comment_id`), ADD KEY `meta_key` (`meta_key`(191));
+  ADD PRIMARY KEY (`meta_id`),
+  ADD KEY `comment_id` (`comment_id`),
+  ADD KEY `meta_key` (`meta_key`(191));
 
 ALTER TABLE `ht_comments`
- ADD PRIMARY KEY (`comment_ID`), ADD KEY `comment_post_ID` (`comment_post_ID`), ADD KEY `comment_approved_date_gmt` (`comment_approved`,`comment_date_gmt`), ADD KEY `comment_date_gmt` (`comment_date_gmt`), ADD KEY `comment_parent` (`comment_parent`), ADD KEY `comment_author_email` (`comment_author_email`(10));
+  ADD PRIMARY KEY (`comment_ID`),
+  ADD KEY `comment_post_ID` (`comment_post_ID`),
+  ADD KEY `comment_approved_date_gmt` (`comment_approved`,`comment_date_gmt`),
+  ADD KEY `comment_date_gmt` (`comment_date_gmt`),
+  ADD KEY `comment_parent` (`comment_parent`),
+  ADD KEY `comment_author_email` (`comment_author_email`(10));
 
 ALTER TABLE `ht_links`
- ADD PRIMARY KEY (`link_id`), ADD KEY `link_visible` (`link_visible`);
+  ADD PRIMARY KEY (`link_id`),
+  ADD KEY `link_visible` (`link_visible`);
 
 
 ALTER TABLE `ht_cis_categories`
