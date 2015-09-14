@@ -1254,7 +1254,10 @@ object {
 .buscar {
 	position: relative;
 	width: 100%;
-	margin-top: -4%;
+	margin-top: -50px;
+	-khtml-margin-top: -50px;
+	-webkit-margin-top: -50px;
+	-moz-margin-top: -50px;
 	z-index: 999;
 	text-align: center;
 }
@@ -1408,6 +1411,9 @@ div.buscar form.search-form input.search-field {
 @media (max-width: 465px){
 	.buscar {
 		margin-top: -15% !important;
+		-khtml-margin-top: -15% !important;
+		-webkit-margin-top: -15% !important;
+		-moz-margin-top: -15% !important;
 	}
 	.descripcion-sitio {
 		font-size: x-large !important;
@@ -1421,6 +1427,9 @@ div.buscar form.search-form input.search-field {
 @media (min-width: 480px) and (max-width: 680px){
 	.buscar {
 		margin-top: -9% !important;
+		-khtml-margin-top: -9% !important;
+		-webkit-margin-top: -9% !important;
+		-moz-margin-top: -9% !important;
 	}
 	.descripcion-sitio {
 		font-size: x-large !important;
@@ -1440,6 +1449,9 @@ div.buscar form.search-form input.search-field {
 @media (min-width: 768px){
 	.buscar {
 		margin-top: -6% !important;
+		-khtml-margin-top: -6% !important;
+		-webkit-margin-top: -6% !important;
+		-moz-margin-top: -6% !important;
 	}
 	.descripcion-sitio {
 		margin-top: -24% !important;
@@ -1456,6 +1468,9 @@ div.buscar form.search-form input.search-field {
 @media (min-width: 992px){
 	.buscar {
 		margin-top: -6% !important;
+		-khtml-margin-top: -6% !important;
+		-webkit-margin-top: -6% !important;
+		-moz-margin-top: -6% !important;
 	}
 	.descripcion-sitio {
 		margin-top: -20% !important;
@@ -1467,7 +1482,10 @@ div.buscar form.search-form input.search-field {
 /* large screens */
 @media (min-width: 1200px){
 	.buscar {
-		margin-top: -4% !important;
+		margin-top: -50px !important;
+		-khtml-margin-top: -50px !important;
+		-webkit-margin-top: -50px !important;
+		-moz-margin-top: -50px!important;
 	}
 	.discover-home{
 		min-height: 640px;
@@ -1475,5 +1493,8 @@ div.buscar form.search-form input.search-field {
 	}
 	.home-text-images{
 		font-size: 40pt !important;
+	}
+	.descripcion-sitio {
+		margin-top: -10% !important;
 	}
 }
