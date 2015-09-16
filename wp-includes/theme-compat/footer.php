@@ -1,30 +1,38 @@
 <?php
 /**
- * @package WordPress
- * @subpackage Theme_Compat
- * @deprecated 3.0
+ * The template for displaying the footer.
  *
- * This file is here for Backwards compatibility with old themes and will be removed in a future version
+ * Contains the closing of the #content div and all content after
  *
+ * @package Creativa Consultores
  */
-_deprecated_file( sprintf( __( 'Theme without %1$s' ), basename(__FILE__) ), '3.0', null, sprintf( __('Please include a %1$s template in your theme.'), basename(__FILE__) ) );
+
+$DOMINIO = rtrim(network_home_url(), '/');
 ?>
 
-<hr />
-<div id="footer" role="contentinfo">
-<!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
-	<p>
-		<?php printf(__('%1$s is proudly powered by %2$s'), get_bloginfo('name'),
-		'<a href="https://wordpress.org/">WordPress</a>'); ?>
-		<br /><?php printf(__('%1$s and %2$s.'), '<a href="' . get_bloginfo('rss2_url') . '">' . __('Entries (RSS)') . '</a>', '<a href="' . get_bloginfo('comments_rss2_url') . '">' . __('Comments (RSS)') . '</a>'); ?>
-		<!-- <?php printf(__('%d queries. %s seconds.'), get_num_queries(), timer_stop(0, 3)); ?> -->
-	</p>
-</div>
-</div>
+	</div><!-- #content -->
+	<?php /*get_sidebar('footer');*/ ?>
 
-<!-- Gorgeous design by Michael Heilemann - http://binarybonsai.com/kubrick/ -->
-<?php /* "Just what do you think you're doing Dave?" */ ?>
+	<footer id="colophon" class="site-footer powered-by-footer" role="contentinfo">
+		<div class="site-info">
+			<div class="container">
+				<div class="text-center" style="color: #ffffff">
+					<div class="row">
+						<div class="col-sm-12">
+						 	<img src="<?= $DOMINIO; ?>/wp-content/uploads/2015/09/powered_creativa.png" alt="powered_creativa" />
+							<br>
+							<a href="https://twitter.com/hispano_travel" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/twitter_icon.png"/></a>
+							<a href="" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/google_icon.png"/></a>
+							<a href="https://www.facebook.com/hispano.travel.alexandria" target="_blank"><img src="<?= $DOMINIO; ?>/wp-content/themes/creativa-consultores/images/facebook_icon.png"/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
 
-		<?php wp_footer(); ?>
+<?php wp_footer(); ?>
+
 </body>
 </html>

@@ -47,7 +47,7 @@ $titulo_sitio = '<span class="titulo-parte1">'.$nombre_sitio[0].'</span><span cl
 <?php endif; ?>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<div class="container">	
-				<button class="menu-toggle btn"><i class="fa fa-bars"></i></button>
+				<button class="menu-toggle btn" style="float: right;"><i class="fa fa-bars"></i></button>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 				<div class="titulo-sitio"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?= $titulo_sitio; ?></a></div>
 			</div>	
